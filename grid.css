@@ -1,0 +1,23 @@
+.grid-container{
+    border: 1px solid black;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 100px;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+.grid-item{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid blue;
+}
+.grid-item1{
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid blue;
+    grid-column: span 2;
+    align-self: 
+}
