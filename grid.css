@@ -19,5 +19,5 @@
     padding: 10px;
     border: 1px solid blue;
     grid-column: span 2;
-    align-self: 
+    align-self: stretch;
 }
