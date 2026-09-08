@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>CSS Types Demo</title>
+    <!-- Internal CSS -->
+     <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: aquamarine;
+        }
+        h1{
+            color: brown;
+        }
+     </style>
+     <!-- External CSS-->
+      <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- CSS Selectors are in used-->
+     <p>
+        *(Universal) Selector here gives a pink background
+     </p>
+     <br>
+     <span> this span is styled using type selectors</span>
+     <br><br>
+     <span> this span is styled using type selectors</span>
+     <br><br>
+     <div id="div1">
+        This div is styled using id selector
+     </div>
+     <br>
+     <div class="div2">
+        This div is styled using class selector
+     </div>
+     <br>
+     <p>
+        pseudo selector:
+     </p>
+     <div class="box">
+        My color changes if you hover over me!
+     </div>
+     <h1> This heading uses internal CSS</h1>
+     <p class="external-text">
+        This paragraph uses external CSS
+     </p>
+     <!-- inline CSS-->
+      <p style="color: red; font-size: bold;">
+        This paragraph uses inline CSS
+      </p>
+      
+</body>
+</html>

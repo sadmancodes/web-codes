@@ -1,0 +1,23 @@
+*{
+    background-color: aquamarine;
+    text-align: center;
+}
+span{
+    background-color: lightblue;
+}
+#div1{
+    background-color: blueviolet;
+}
+.div2{
+    background-color: cadetblue;
+}
+.box{
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+}
+.box:hover{
+    background-color: white;
+    color: red;
+}
